@@ -5,19 +5,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('.nav-link');
     const header = document.querySelector('.header');
 
+    const overlay = document.createElement('div');
+    overlay.className = 'menu-overlay';
+    document.body.appendChild(overlay);
+
     if (hamburger) {
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
         });
     }
 
-    // Close menu when link is clicked
+    // Close menu when overlay or link is clicked
+    const closeMenu = () => {
+        if (hamburger) hamburger.classList.remove('active');
+        if (navMenu) navMenu.classList.remove('active');
+        if (overlay) overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    };
+
+    overlay.addEventListener('click', closeMenu);
+
     navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            if (hamburger) hamburger.classList.remove('active');
-            if (navMenu) navMenu.classList.remove('active');
-        });
+        link.addEventListener('click', closeMenu);
     });
 
     // Header Scroll Effect
