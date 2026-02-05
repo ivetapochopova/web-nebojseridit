@@ -1394,6 +1394,27 @@ i.bi {
     margin: 0 auto;
 }
 
+.article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+}
+
+.article-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.article-meta i {
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
+
 .content-text p {
     margin-bottom: 1.8rem;
     font-size: 1.15rem;
