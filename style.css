@@ -1,6 +1,6 @@
 /* Modern Feminine Design - Neboj se řídit - Updated V2 */
 @import url('https://fonts.googleapis.com/css2?family=LINE+Seed+JP:wght@100;400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 :root {
     /* Color Palette - User Defined Base (Strict) */
@@ -288,10 +288,10 @@ i.bi {
     align-items: center;
     gap: 1.2rem;
     font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.02em;
 }
 
 .logo-img {
@@ -314,7 +314,7 @@ i.bi {
 
 .nav-link {
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 1.09rem;
     color: rgba(255, 255, 255, 0.85);
     position: relative;
     padding: 0.5rem 0;
@@ -407,6 +407,7 @@ i.bi {
     font-size: 0.5em;
     white-space: nowrap;
     letter-spacing: 0.1em;
+    margin-top: 1.2rem;
 }
 
 .hero-subtitle {
@@ -925,6 +926,10 @@ i.bi {
         gap: 0.5rem;
         flex-direction: column;
     }
+
+    .footer-bottom .separator {
+        display: none;
+    }
 }
 
 /* --- Animations --- */
@@ -1085,7 +1090,13 @@ i.bi {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin: 0 auto;
+        margin: 0;
+        text-align: left;
+    }
+
+    .check-list li {
+        text-align: left;
+        justify-content: flex-start;
     }
 
 
@@ -1142,7 +1153,7 @@ i.bi {
     }
 
     .logo-img {
-        height: 40px;
+        height: 55px;
     }
 
     .logo span {
@@ -1161,7 +1172,7 @@ i.bi {
     }
 
     .logo-img {
-        height: 32px;
+        height: 45px;
     }
 
     .hero-text h1 {
