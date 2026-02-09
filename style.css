@@ -610,7 +610,7 @@ i.bi {
 
 .feature-card p {
     font-size: 1.05rem;
-    color: var(--text-light);
+    color: var(--text-main);
     line-height: 1.7;
 }
 
@@ -1544,6 +1544,8 @@ article.section {
     padding: 0;
     overflow: hidden;
     border-radius: var(--radius-xl);
+    align-self: center;
+    margin-top: -3rem;
 }
 
 .info-car-image img {
@@ -1579,12 +1581,15 @@ article.section {
     .info-car-container {
         grid-template-columns: 1fr;
         gap: 2rem;
-        text-align: center;
     }
 
     .info-car-image {
         max-width: 500px;
         margin: 0 auto;
+    }
+
+    .info-car-container .profile-content p {
+        text-align: left;
     }
 }
 
