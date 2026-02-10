@@ -1,6 +1,4 @@
 /* Modern Feminine Design - Neboj se řídit - Updated V2 */
-@import url('https://fonts.googleapis.com/css2?family=LINE+Seed+JP:wght@100;400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 :root {
     /* Color Palette - User Defined Base (Strict) */
@@ -618,7 +616,6 @@ i.bi {
 .full-width-section {
     height: 60vh;
     background: linear-gradient(to right, transparent 30%, rgba(0, 0, 0, 0.7)), url('Obrazky/hlavni stranka/na veku nezalezi.jpg');
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     display: flex;

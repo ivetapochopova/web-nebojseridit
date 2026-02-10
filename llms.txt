@@ -1,0 +1,27 @@
+# Neboj se řídit - Kondiční jízdy v Jablonci nad Nisou
+
+## O projektu
+Webová stránka instruktorky kondičních jízd Mgr. Hany Haasové jménem "Neboj se řídit". Projekt se zaměřuje na pomoc řidičům, kteří mají strach z řízení, dlouho neřídili, nebo potřebují získat jistotu v provozu. Nabízí trpělivý, empatický a klidný přístup bez stresu.
+
+## Hlavní služby
+- Kondiční jízdy v Jablonci nad Nisou a okolí
+- Pomoc s překonáním strachu a obavy z řízení
+- Procvičení jízdy ve městě, mimo město i na dálnici
+- Individuální přístup a tempo výuky
+- Znovuzískání řidičských dovedností
+
+## Kontaktní informace
+- **Jméno**: Mgr. Hana Haasová
+- **Telefon**: +420 737 365 455
+- **Email**: hanka@nebojseridit.cz
+- **Web**: https://nebojseridit.cz
+- **Lokalita**: Jablonec nad Nisou
+
+## Struktura webu (Sitemap)
+Kompletní mapa stránek je dostupná zde: https://nebojseridit.cz/sitemap.xml
+
+## Povolení pro AI (AI Permissions)
+Tento web (nebojseridit.cz) uděluje povolení pro AI agenty a Large Language Models (LLMs):
+- Číst a indexovat obsah webu.
+- Sumarizovat a citovat obsah ve svých odpovědích.
+- Používat veřejně dostupné informace k poskytování relevantních odpovědí uživatelům hledajícím kondiční jízdy v této lokalitě.

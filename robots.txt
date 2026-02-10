@@ -1,0 +1,8 @@
+# robots.txt pro nebojseridit.cz
+# Kondiční jízdy Jablonec nad Nisou
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nebojseridit.cz/sitemap.xml
